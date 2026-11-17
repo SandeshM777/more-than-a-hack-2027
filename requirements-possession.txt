@@ -1,0 +1,11 @@
+# Exact versions for our pipeline (possession/). Tested on Python 3.11.5.
+#
+# numpy runs everything; lxml parses the IDSSE XML (training only); pandas and its dependencies
+# are what the organisers' scorer in evaluation/ needs. Nothing else is imported.
+numpy==2.4.6
+lxml==6.1.3
+pandas==2.3.3
+python-dateutil==4.0.0
+pytz==2026.6
+six==1.17.0
+tzdata==2026.6
